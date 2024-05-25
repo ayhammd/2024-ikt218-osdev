@@ -1,4 +1,5 @@
 #pragma once
 
 int putchar(int ic);
-void printf(int color, const char *string);
+bool print(const char* data, size_t length);
+int printf(const char* __restrict__ format, ...);

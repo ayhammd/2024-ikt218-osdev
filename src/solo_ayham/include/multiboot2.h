@@ -412,13 +412,6 @@ struct multiboot_tag_load_base_addr
   multiboot_uint32_t load_base_addr;
 };
 
-// Structure to hold the Multiboot header information passed by the bootloader
-struct multiboot_info {
-    uint32_t size;       
-    uint32_t reserved;   
-    struct multiboot_tag *first; 
-};
-
 #endif /*  ! ASM_FILE */
 
 #endif /*  ! MULTIBOOT_HEADER */
